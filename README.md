@@ -67,8 +67,8 @@ popx-landing/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/popx-landing.git
-cd popx-landing
+git clone https://github.com/Amritasri10/Educase-India--Landing-Screen
+cd Educase-India--Landing-Screen
 
 # Install dependencies
 npm install
