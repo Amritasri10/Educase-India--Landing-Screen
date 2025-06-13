@@ -6,7 +6,7 @@ A **pixel-perfect React.js application** based on an **Adobe XD design**, featur
 
 ## 🚀 Live Demo
 
-[View Live App](https://your-deployed-app-link.com) *(Optional)*
+[View Live App](https://educase-india-landing-screen.netlify.app/)
 
 ---
 
