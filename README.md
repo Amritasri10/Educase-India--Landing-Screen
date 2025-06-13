@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# 🌟 PopX React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **pixel-perfect React.js application** based on an **Adobe XD design**, featuring smooth navigation between screens using **React Router DOM** and **React Hooks**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
 
-### `npm start`
+[View Live App](https://your-deployed-app-link.com) *(Optional)*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📌 Features
 
-### `npm test`
+- Responsive & pixel-perfect UI from Adobe XD
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Smooth page transitions with React Router
 
-### `npm run build`
+- Form inputs with custom styled fields
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Modular folder structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Easy to extend and scale
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React.js** (Functional Components)
+- **React Router DOM** (Routing)
+- **React Hooks** (`useState`, `useEffect`, `useNavigate`)
+- **CSS3** (Responsive & pixel-perfect styling)
+- **Adobe XD** (UI/UX Design source)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📁 Project Structure 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+popx-landing/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── components/
+│   │   ├── LandingPage.jsx
+│   │   ├── Signup.jsx
+│   │   ├── Login.jsx
+│   │   └── Profile.jsx
+│   │
+│   ├── styles/
+│   │   ├── LandingPage.css
+│   │   ├── Signup.css
+│   │   ├── Login.css
+│   │   └── Profile.css
+│   │
+│   ├── App.js
+│   └── index.js
+│
+├── package.json
+└── README.md
+```
+---
 
-## Learn More
+## 📦 Installation & Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone the repository
+git clone https://github.com/your-username/popx-landing.git
+cd popx-landing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Install dependencies
+npm install
 
-### Code Splitting
+# Start development server
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# App will run
+http://localhost:3000
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Navigation Flow
 
-### Making a Progressive Web App
+### 🏠 Landing Page (`/`)
+- First screen user sees.
+- Click **"Create Account"** → navigates to `/signup`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 🔐 Signup Page (`/signup`)
+- User can register.
+- Click **"Already Registered? Login"** → navigates to `/login`.
+- On **successful signup**, user is redirected to `/login`.
 
-### Advanced Configuration
+### 🔓 Login Page (`/login`)
+- Users can log in with their credentials.
+- On **successful login**, user is redirected to `/profile`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 👤 Profile Page (`/profile`)
+- Static design displaying **Account Settings** and **User Info**.
+- For design showcase only (not dynamic yet).
 
-### Deployment
+---
+### 📦 Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+"dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hook-form": "^7.57.0",
+    "react-router-dom": "^7.6.2",
+}
+```
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📄 License
+
+This project is licensed under the MIT License.
