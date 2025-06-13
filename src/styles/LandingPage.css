@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+.landing-container {
+  height: 712px;
+  width: 375px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: #F7F8F9 0% 0% no-repeat padding-box;
+  font-family: 'Rubik', sans-serif;
+  box-sizing: border-box;
+  padding-bottom: 0px;
+}
+
+.landing-card {
+  width: 100%;
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 0 20px; 
+  gap:6px;
+}
+
+.landing-heading {
+text-align: left;
+font: normal normal medium 28px/17px Rubik;
+letter-spacing: 0px;
+color: #1D2226;
+opacity: 1;
+margin-top: 25px;
+position: absolute;
+}
+
+.landing-subtext {
+text-align: left;
+font: normal normal normal 18px/26px Rubik;
+letter-spacing: 0px;
+color: #1D2226;
+opacity: 0.6;
+padding-top: 49px;
+
+}
+
+.landingprimary-btn {
+width: 100%;
+height:46px;
+border-radius: 6px;
+border: none;
+background: #6C25FF 0% 0% no-repeat padding-box;
+border-radius: 6px;
+opacity: 1;
+text-align: center;
+font: normal normal medium 16px/17px 'Rubik';
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+cursor: pointer;
+}
+
+.landingsecondary-btn {
+width: 100%;
+height:46px;
+border-radius: 6px;
+border: none;
+background: #6C25FF4B 0% 0% no-repeat padding-box;
+opacity: 1;
+text-align: center;
+font: normal normal medium 16px/17px 'Rubik';
+font-weight:bold ;
+letter-spacing: 0px;
+color: #1D2226;
+opacity: 1;
+cursor: pointer;
+}
+
+.landingprimary-btn:hover,
+.landingsecondary-btn:hover {
+  opacity: 0.9;
+}
