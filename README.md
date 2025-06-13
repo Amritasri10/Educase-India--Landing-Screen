@@ -82,7 +82,7 @@ http://localhost:3000
 
 ---
 
-## Navigation Flow
+## 🔗 Page Navigation Flow
 
 ### 🏠 Landing Page (`/`)
 - First screen user sees.
