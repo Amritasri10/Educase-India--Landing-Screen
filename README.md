@@ -91,7 +91,7 @@ http://localhost:3000
 ### 🔐 Signup Page (`/signup`)
 - User can register.
 - Click **"Already Registered? Login"** → navigates to `/login`.
-- On **successful signup**, user is redirected to `/login`.
+- On **successful signup**, user is redirected to `/profile`.
 
 ### 🔓 Login Page (`/login`)
 - Users can log in with their credentials.
